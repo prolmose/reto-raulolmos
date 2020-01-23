@@ -1,4 +1,4 @@
-import {	Fonts, Colors	} from 'styles/';
+import {	Fonts	} from 'styles/';
 
 const SolutionsScreenStyle = {
 	screen:{

@@ -1,14 +1,8 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import styles from 'components/BlogBox/BlogBoxStyle';
-import BigDoubleText from 'components/BigDoubleText/BigDoubleText';
 
 export default class BlogBox extends Component  {
-	constructor(props){
-		super(props);
-	}
-
 	render() {
 		return (
 			<div style={this.props.space ? styles.cardTwo : styles.card}>

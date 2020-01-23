@@ -10,7 +10,7 @@ export default class IconDoubleText extends Component  {
 		return (
 			<div style={styles.position}>
 				<div style={{paddingRight: '10px'}}>
-					{this.props.icon1  ? <img style={{width: '80px'}} src={Icon1}/> : this.props.icon2  ? <img style={{width: '80px'}} src={Icon2}/> : <img style={{width: '80px'}} src={Icon3}/> }
+					{this.props.icon1  ? <img style={{width: '80px'}} alt={"icon"} src={Icon1}/> : this.props.icon2  ? <img style={{width: '80px'}} alt={"icon"} src={Icon2}/> : <img style={{width: '80px'}} alt={"icon"} src={Icon3}/> }
 				</div>
 				<div>
 					<DoubleText

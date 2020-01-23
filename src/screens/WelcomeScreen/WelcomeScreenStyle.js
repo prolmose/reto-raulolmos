@@ -47,7 +47,7 @@ const WelcomeScreenStyle = {
 		shadowOpacity: 0.1,
 		shadowOffset: { width: 0, height: 3 },
 		elevation: 3,
-		position: 'fixed',
+		position: 'absolute',
 		borderRadius: 5,
 	},
 };

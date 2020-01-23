@@ -1,4 +1,3 @@
-import Slider1 from 'assets/001 - Home/slider-1.jpg';
 import {  Fonts, Colors } from 'styles/';
 
 const HomeImage = require('assets/001 - Home/slider-1.jpg');
@@ -21,21 +20,19 @@ const HomeStyle = {
 		width: width > 480 ? '100%': '60%',
 		height: height > 768 ? '5%' : '15%',
 		backgroundColor: '#067CF7',
-		borderBottom: 'white',
-		fontWeight: "bold",
 		padding: "0px 20px",
-		boxSizing: "border-box"
+		boxSizing: "border-box",
+		opacity: 0.8,
 	},
 	navBar: {
-		justifyContent: 'space-evenly',
-		flexDirection: "row",
-	    display:'flex',
+	    display:'inline-flex',
+		justifyContent: 'space-between',
 	},
 	middleBar: {
-		justifyContent: 'space-evenly',
+		justifyContent: 'space-between',
 		position: 'relative',
-		flexDirection: "row",
 	    display:'flex',
+	    marginLeft: '90%'
 	},
 	content:{
 		top: '50px',
@@ -70,7 +67,7 @@ const HomeStyle = {
 	},
 	textBox: {
 		marginVertical: '20%',
-		marginHorizontal:'20%',
+		marginLeft:'20%',
 		
 	}
 };

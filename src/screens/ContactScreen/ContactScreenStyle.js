@@ -1,9 +1,4 @@
-import Slider1 from 'assets/001 - Home/slider-1.jpg';
-import {  Fonts, Colors } from 'styles/';
-
-const HomeImage = require('assets/001 - Home/slider-1.jpg');
-const { innerWidth: width, innerHeight: height } = window;
-
+import {  Fonts } from 'styles/';
 
 const ContactScreenStyle = {
 	image: {

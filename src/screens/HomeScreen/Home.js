@@ -26,9 +26,27 @@ class Home extends Component {
 								</Link>
 							</div>
 							<div style={styles.middleBar}>
-								<div style={styles.textBox}><Link to={'/solutions'} className="nav-link"><p style={styles.textStyle}>Soluciones</p></Link></div>
-								<div style={styles.textBox}><Link to={'/blogs'} className="nav-link"><p style={styles.textStyle}>Blogs</p></Link></div>
-								<div style={styles.textBox}><Link to={'/contact'} className="nav-link"><p style={styles.textStyle}>Contacto</p></Link></div>
+								<div style={styles.textBox}>
+									<Link to={'/solutions'} className="nav-link">
+										<p style={styles.textStyle}>
+											Soluciones
+										</p>
+									</Link>
+								</div>
+								<div style={styles.textBox}>
+									<Link to={'/blogs'} className="nav-link">
+										<p style={styles.textStyle}>
+											Blogs
+										</p>
+									</Link>
+								</div>
+								<div style={styles.textBox}>
+									<Link to={'/contact'} className="nav-link">
+										<p style={styles.textStyle}>
+											Contacto
+										</p>
+									</Link>
+								</div>
 							</div>
 						</nav>
 					</div>

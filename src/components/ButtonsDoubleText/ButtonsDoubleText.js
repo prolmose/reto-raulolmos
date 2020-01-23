@@ -6,10 +6,6 @@ import "react-awesome-button/dist/styles.css";
 import BigDoubleText from 'components/BigDoubleText/BigDoubleText';
 
 export default class ButtonsDoubleText extends Component  {
-	constructor(props){
-		super(props);
-	}
-
 	render() {
 		return (
 			<div>
